@@ -1,0 +1,67 @@
+/*Header*/
+
+ul.menu{
+    font-size: 25px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(23, 157, 235);
+    text-align: center;
+    border-radius: 600px;
+}
+
+li a:hover {
+    background-color: #414850;
+    color:white;
+}
+
+li{
+    display: inline;
+}
+
+header{
+    background-color: #f2f2f2; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+#login{ 
+    background-color:rgb(23, 157, 235);
+    color:white;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+#login:hover {
+    background-color: #555a5c;
+  }
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center;
+    }
+}
+hr{
+    height:5px;
+    background-color: black;
+}
+
+.menu{
+    color: rgb(23, 157, 235);
+    display: flex;
+    padding: 16px 32px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#person_icon, #login {
+    margin: 8px auto; /* Center icons and button horizontally */
+}
+

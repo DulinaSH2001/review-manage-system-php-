@@ -1,0 +1,89 @@
+.star-rating {
+    direction: ltr; /* Set direction to right-to-left */
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block; /* Display stars in a row */
+}
+
+.star-rating label:before {
+    content: "\2605"; /* Unicode character for star */
+}
+
+.star-rating input[type="radio"]:checked ~ label:before {
+    color: gold;
+}
+/* Styles for the form container */
+.form-outliner {
+    width: 50%; /* Adjust the width of the form container as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles for the form inputs and labels */
+.form-outliner form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-outliner form input[type="text"],
+.form-outliner form input[type="email"],
+.form-outliner form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.form-outliner form input[type="file"] {
+    margin-top: 5px; /* Adjust as needed */
+}
+
+.form-outliner form .star-rating {
+    margin-bottom: 15px;
+}
+
+/* Styles for the star rating */
+.form-outliner form .star-rating input[type="radio"] {
+    display: none;
+}
+
+.form-outliner form .star-rating label {
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block; /* Display stars in a row */
+}
+
+.form-outliner form .star-rating label:before {
+    content: "\2605"; /* Unicode character for star */
+}
+
+.form-outliner form .star-rating input[type="radio"]:checked ~ label:before {
+    color: gold;
+}
+
+/* Styles for the submit button */
+.form-outliner form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-outliner form input[type="submit"]:hover {
+    background-color: #45a049;
+}

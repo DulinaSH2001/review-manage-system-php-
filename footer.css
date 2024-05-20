@@ -1,0 +1,55 @@
+/*Footer*/
+
+footer{
+    display: flex;
+}
+
+
+
+#icons{
+    position: absolute;
+    padding-top: 50px;
+}
+
+#contact{
+    position: absolute;
+    left: 650px;
+    padding-top: 20px;
+}
+
+#address{
+    position: absolute;
+    right: 500px;
+    padding-top: 20px;
+}
+
+#qr_code{
+    position: absolute;
+    padding-top: 5px;
+    left: 1400px;
+}
+
+#address{
+    position: relative;
+    left: 670px;
+}
+
+#right{
+    position: absolute;
+    left: 1250px;
+    padding-top: 100px;
+}
+
+#login{
+    background-color: rgb(23, 157, 235);
+    color: white;
+}
+
+#login:hover{
+    background-color: #414850;
+}
+
+hr{
+    height:5px;
+    background-color: black;
+}
